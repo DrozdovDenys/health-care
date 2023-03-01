@@ -198,7 +198,7 @@ header {
 /* adaptive for home section */
 @media screen and (max-width: 768px) {
   .header__menu {
-    padding: 7px 4px;
+    padding: 1.4vw 8.55vw;
   }
   #home {
     padding: 171px 171px 127px 14px;
@@ -211,12 +211,10 @@ header {
     display: flex;
     flex-wrap: wrap;
     gap: 11px;
+    justify-content: center;
   }
   .nav-menu {
     gap: 12px;
-  }
-  .header__menu {
-    padding: 7px 4px;
   }
   #home {
     padding: 40px 15px 12px 13px;
